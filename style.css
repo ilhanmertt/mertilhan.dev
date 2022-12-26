@@ -34,17 +34,26 @@ body{
     top: -200px;
     color: white;
     font-size: 50px;
+    letter-spacing: 2px;
+    font-style: italic;
 }
 .box h5{
     position: relative;
     top: -190px;
-    color: white;
+    color: green;
+    letter-spacing: 2px;
+}
+hr{
+    position: relative;
+    top: -100px;
 }
 .box p{
     position: relative;
     top: -50px;
     color: white;
     align-items: center;
+    letter-spacing: 2px;
+    line-height: 30px;
 }
 .social{
     position: relative;
@@ -68,4 +77,11 @@ body{
     border: 1px solid white;
     padding: 10px;
     color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.mail a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
